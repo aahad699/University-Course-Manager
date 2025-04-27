@@ -16,7 +16,7 @@ public class StudentDashboard extends JFrame {
     public StudentDashboard(String studentID) {
         this.studentID = studentID;
 
-        setTitle("Student Dashboard");
+        setTitle("AAHAD.69");
         setSize(700, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -329,7 +329,7 @@ public class StudentDashboard extends JFrame {
 
                 if (rowsAffected > 0) {
                     JOptionPane.showMessageDialog(this, "Course removed successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
-                    loadEnrolledCourses(); // Refresh the table
+                    loadEnrolledCourses();
                 } else {
                     JOptionPane.showMessageDialog(this, "Failed to remove the course.", "Error", JOptionPane.ERROR_MESSAGE);
                 }

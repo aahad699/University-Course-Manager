@@ -16,7 +16,7 @@ public class TeacherDashboard extends JFrame {
     public TeacherDashboard(String teacherID) {
         this.teacherID = teacherID;
 
-        setTitle("Teacher Dashboard");
+        setTitle("AAHAD.69");
         setSize(700, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -19,7 +19,7 @@ public class RegisterCourseDialog extends JDialog {
         tableAvailableCourses = new JTable();
         btnRegister = new JButton("Register Selected Course");
         btnRegister.setBackground(new Color(40, 167, 69));
-        btnRegister.setForeground(Color.WHITE);
+        btnRegister.setForeground(Color.BLACK);
 
         setLayout(new BorderLayout());
         add(new JScrollPane(tableAvailableCourses), BorderLayout.CENTER);

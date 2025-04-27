@@ -14,17 +14,17 @@ public class SignupScreen extends JFrame {
     private JLabel lblMajorDept;
     
     public SignupScreen() {
-        setTitle("University Course Manager - Sign Up");
+        setTitle("AAHAD.69");
         setSize(500, 500);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
         
         JPanel panel = new JPanel(new GridBagLayout());
-        panel.setBackground(new Color(245, 245, 245));  // Match the login screen background
+        panel.setBackground(new Color(245, 245, 245));
         GridBagConstraints gbc = new GridBagConstraints();
-        gbc.insets = new Insets(10, 20, 10, 20);  // Match login screen insets
+        gbc.insets = new Insets(10, 20, 10, 20);
         
-        JLabel lblHeader = new JLabel("Create New Account");
+        JLabel lblHeader = new JLabel("University Course Manager - Sign Up");
         lblHeader.setFont(new Font("Arial", Font.BOLD, 18));
         lblHeader.setHorizontalAlignment(SwingConstants.CENTER);
         gbc.gridx = 0;
@@ -92,24 +92,24 @@ public class SignupScreen extends JFrame {
         panel.add(txtMajorDept, gbc);
         
         JButton btnSignup = new JButton("Sign Up");
-        btnSignup.setBackground(new Color(40, 167, 69));  // Match login screen's green button
-        btnSignup.setForeground(Color.BLACK);  // Match login screen's button text color
+        btnSignup.setBackground(new Color(40, 167, 69));
+        btnSignup.setForeground(Color.BLACK);
         btnSignup.setFocusPainted(false);
-        btnSignup.setPreferredSize(new Dimension(120, 40));  // Match login screen button size
+        btnSignup.setPreferredSize(new Dimension(120, 40));
         gbc.gridx = 0;
         gbc.gridy = 7;
         gbc.gridwidth = 2;
         gbc.anchor = GridBagConstraints.CENTER;
-        gbc.insets = new Insets(20, 20, 10, 20);  // More space above button like login screen
+        gbc.insets = new Insets(20, 20, 10, 20);
         panel.add(btnSignup, gbc);
         
         JButton btnBack = new JButton("Back to Login");
-        btnBack.setBackground(new Color(0, 123, 255));  // Match login screen's blue button
+        btnBack.setBackground(new Color(0, 123, 255));
         btnBack.setForeground(Color.BLACK);
         btnBack.setFocusPainted(false);
         btnBack.setPreferredSize(new Dimension(120, 40));
         gbc.gridy = 8;
-        gbc.insets = new Insets(10, 20, 10, 20);  // Normal spacing for second button
+        gbc.insets = new Insets(10, 20, 10, 20);
         panel.add(btnBack, gbc);
         
         btnSignup.addActionListener(new ActionListener() {
@@ -131,7 +131,6 @@ public class SignupScreen extends JFrame {
         add(panel);
         updateMajorDeptLabel();
         
-        // Apply global font styling
         Font mainFont = new Font("Segoe UI", Font.PLAIN, 15);
         setGlobalFont(this, mainFont);
     }
@@ -161,7 +160,6 @@ public class SignupScreen extends JFrame {
             return;
         }
         
-        // Auto-prefix ID based on role
         char rolePrefix = role.equals("Student") ? 'S' : 'T';
         if (!username.startsWith(String.valueOf(rolePrefix))) {
             username = rolePrefix + username;

@@ -9,7 +9,7 @@ public class LoginScreen extends JFrame {
     private JPasswordField txtPassword;
     
     public LoginScreen() {
-        setTitle("Student Management System - Login");
+        setTitle("AAHAD.69");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
