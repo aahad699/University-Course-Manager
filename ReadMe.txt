@@ -12,3 +12,5 @@ SignUp Screen: https://imgur.com/a/VShM7zv
 Student DashBoard: https://imgur.com/a/T1BgeHr
 
 Teacher DashBoard: https://imgur.com/a/D2amWqI
+
+Requirements: JAVA SE-21, JDBC 8.2.0
