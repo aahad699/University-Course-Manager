@@ -1,6 +1,6 @@
-# University_Course_Manager
-A Java app with login/signup, where teachers can manage courses, remove enrollments, and update profiles. Students can register for courses and edit profiles. Features role-based dashboards with modern UI.
-
+Project Name: University-Course-Manager
+Description: A Java app with login/signup, where teachers can manage courses, remove enrollments, and update profiles. Students can register for courses and edit profiles. Features role-based dashboards with modern UI.
+Curse Name: Object Oriented Programming (CSC241)
 Schema Design: https://imgur.com/a/kwcoR41
 
 --Outputs--
