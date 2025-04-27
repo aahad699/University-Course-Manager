@@ -4,6 +4,7 @@ A Java app with login/signup, where teachers can manage courses, remove enrollme
 Schema Design: https://imgur.com/a/kwcoR41
 
 --Outputs--
+
 LogIn Screen: https://imgur.com/a/iEuZbYN
 
 SignUp Screen: https://imgur.com/a/VShM7zv
